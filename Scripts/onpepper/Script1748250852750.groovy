@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_Pepper Portfolio Dashboard/sp
 
 WebUI.click(findTestObject('Object Repository/Page_Pepper Portfolio Dashboard/span_View Results'))
 
-WebUI.getText(findTestObject('Object Repository/Page_Pepper Portfolio Dashboard/div_Results Generated'))
-
+text=WebUI.getText(findTestObject('Object Repository/Page_Pepper Portfolio Dashboard/div_Results Generated'))
+println(text)
 WebUI.closeBrowser()
 
